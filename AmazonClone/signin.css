@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+body{
+    background-color: #fff;
+    text-align: center;
+    font-family: outfit;
+    min-height: 100vh;
+
+}
+.logo{
+    margin-top: 20px;
+
+}
+.signin-container{
+    max-width: 350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.signin-title{
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.input-lable{
+    margin-top: 20px;
+
+}
+.signin-container input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: 12px;
+}
+.signin-container input:focus{
+    outline: 1px solid #ffd814;
+}
+.signin-container button{
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background-color: #ffd814;
+    border: none;
+    cursor: pointer;
+}
+.signin-container button:hover{
+    background-color: #ebc712;
+}
+.signin-condition{
+    font-size: 14px;
+
+}
+.signin-container p span{
+    color: #0066c0;
+}
+.signin-help{
+    font-size: 15px;
+    margin: 20px 0;
+}
+.signin-buy{
+    margin: 12px 0;
+}
+.signin-shop{
+    margin: 12px 0;
+}
+.signin-bottom p{
+    margin: 20px 0px 20px 0px;
+    font-size: 16px;
+    color: #858585;
+}
+.signin-signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #7e7a7af0;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.signin-signup-btn:hover{
+    background-color: #e0dfdf;
+}
+
+.signin-signup-btn a{
+    text-decoration: none;
+    color: #000 ;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    bottom: 0;
+    margin-top: 20px;
+    padding: 20px 0px;
+    background: linear-gradient(to bottom, #f4f4f4, #fff);
+    border: 2px solid #ededed;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #0066c0;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0066c0;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #514e4efc;
+}
